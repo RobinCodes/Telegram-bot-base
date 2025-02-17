@@ -63,7 +63,7 @@ async def options(update: Update, context: CallbackContext):
         await context.bot.edit_message_caption(
             chat_id=query.message.chat_id,
             message_id=query.message.message_id,
-            caption='🔒💻👁️ *Commands* 🔒💻👁️\n\n👉 IP Lookup: /lookup [IP]',
+            caption='🔒💻👁️ *Command List* 🔒💻👁️\n\n👉 IP Lookup: /lookup [IP]',
             parse_mode='MarkdownV2',
             reply_markup=reply_markup
         )
